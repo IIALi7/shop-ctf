@@ -8,7 +8,6 @@ function App() {
   const [balance, setBalance] = useState('0');
   const [loading, setLoading] = useState(true);
 
-  // تحميل المنتجات والرصيد عند فتح الصفحة
   useEffect(() => {
     (async () => {
       try {
